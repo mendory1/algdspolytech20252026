@@ -21,9 +21,9 @@ typedef struct {
 
 // Функции для работы со стеком на основе связного списка
 void createListStack(ListStack* stack);
-void pushStackList(ListStack* stack, int value);
-int popStackList(ListStack* stack);
-int peekList(ListStack* stack);
+void pushListStack(ListStack* stack, int value);
+int popListStack(ListStack* stack);
+int peekListStack(ListStack* stack);
 
 // Структура стека на основе массива
 typedef struct {
